@@ -8,6 +8,9 @@
   font-weight: bold;
 }
 
+h6{
+  font-weight: bold;
+}
 .description-div {
   color: grey;
   margin-right: 20px;
@@ -29,14 +32,14 @@
   color: white;
   border-radius: 100%;
 
-  font-family: sans-serif; /* Just 'cos */
+  font-family: sans-serif;
   padding-bottom: 58.6%;
 }
 
 .main-wrap {
   padding: 20px;
   background: #f2f2f2;
-  height: 1000px;
+  height: auto;
   margin-top: 60px;
   margin-right: 200px;
   margin-left: 200px;
@@ -182,15 +185,12 @@
 }
 
 #horizontal-list ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-  text-align: center;
 }
 
 #horizontal-list ul li {
   display: inline;
-  padding: 25px;
+  padding: 15px;
 }
 .picture-li img{
   transition: transform .5s ease;
